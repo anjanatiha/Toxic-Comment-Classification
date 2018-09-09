@@ -1,6 +1,11 @@
-lassify comments on categories - 
+'''
+*****************************************************************************************************************************************
+Classify comments on categories - 
 toxic, severe_toxic, obscene, threat, insult, identity_hate, any, none
+*****************************************************************************************************************************************
+*****************************************************************************************************************************************
 Procedure:
+*****************************************************************************************************************************************
 1. Build pipelines for machine learning model training for reading file, creating training testing dataset, preprocessing 
    (cleaning text, tokenization, single character count, url count, modal count, non alpha mid character), 
    extracting features, and training and evaluation in grid search approach for mutiple models.
@@ -17,3 +22,7 @@ Procedure:
     - The modal words that were used are: can, could, may, might, must, will, would, and should.
     - Total number of tokens with non-alphabetic characters in the middle.
 4. Build model training pipeline for both classification and regression
+*****************************************************************************************************************************************
+*****************************************************************************************************************************************
+
+'''
