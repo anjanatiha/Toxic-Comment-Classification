@@ -25,3 +25,5 @@ Procedure:
     - The modal words that were used are: can, could, may, might, must, will, would, and should.
     - Total number of tokens with non-alphabetic characters in the middle.
 4. Build model training pipeline for both classification and regression
+5. Generate agregated report on performance for various models.
+6. Visualization for different model performance.
